@@ -8,7 +8,7 @@
              d:DesignHeight="150" d:DesignWidth="300"
          Title="Идентификатор элемента">
     <StackPanel>
-        <Label Content="Выбор системы"/>
+        <Label Content="Выбор типа стены"/>
         <ComboBox ItemsSource="{Binding WallTypes}"
                   SelectedValue="{Binding SelectedWallTypes}"
                   DisplayMemberPath="Name"
